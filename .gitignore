@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Memos Folder
+memos/
+
+
 # Distribution / packaging
 .Python
 build/
