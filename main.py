@@ -1,5 +1,5 @@
 from dataclasses import Memo, Database, Utils
-import datetime, outputformat as ouf, json, math
+import outputformat as ouf, json, math
 
 db = Database()
 db.initialize_db() # Initializes the db, creates the memo table
