@@ -8,19 +8,19 @@ class Utils:
     def __init__(self):
         pass
 
-    def clear_console(self):
+    def clear_console(self) -> None:
         """
         Clears the console.
         """
         os.system('cls' if os.name == 'nt' else 'clear')
 
-    def sleep(self, seconds):
+    def sleep(self, seconds) -> None:
         """
         Sleeps for a specified number of seconds.
         """
         time.sleep(seconds)
 
-    def parse_timestamp(self, s):
+    def parse_timestamp(self, s) -> datetime.datetime:
         """
         Parses the string timestamp returned by db to a datetime object,
         """
