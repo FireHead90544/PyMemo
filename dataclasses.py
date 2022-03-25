@@ -1,6 +1,5 @@
 from pathlib import Path
 import outputformat as ouf
-from typing import Any, Tuple, Union, List
 from PIL import Image, ImageDraw, ImageFont
 import io, os, sys, textwrap, datetime, sqlite3, time
 
